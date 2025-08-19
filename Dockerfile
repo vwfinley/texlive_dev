@@ -1,10 +1,8 @@
-FROM vwfinley/texlive:latest
+FROM ghcr.io/vwfinley/texlive:v1.0.0
 
 USER root
 
-#RUN curl www.google.com
-#RUN  tlmgr install gensymb
-
+# Install some additional texlive packages
 RUN <<EOF
     tlmgr install \
         gensymb paralist \
