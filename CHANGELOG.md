@@ -4,3 +4,6 @@
 * Initial release
 * Adds some extra TexLive packages to the ghcr.io/vwfinley/texlive:v1.0.0 container.
 * See https://github.com/vwfinley/texlive
+
+## [v1.1.0] - 2025-08-28 - @vwfinley
+* Added bbm package.
