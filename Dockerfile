@@ -1,4 +1,4 @@
-FROM ghcr.io/vwfinley/texlive:v1.0.0
+FROM ghcr.io/vwfinley/texlive:latest
 
 LABEL license="MIT"
 
@@ -11,7 +11,7 @@ RUN <<EOF
         lastpage sectsty \
         tocbibind tocloft \
         multirow makecell \
-        bbm 
+        bbm bbm-macros
 EOF
 
 USER vscode

@@ -7,3 +7,6 @@
 
 ## [v1.1.0] - 2025-08-28 - @vwfinley
 * Added bbm package.
+
+## [v1.1.0] - 2025-08-29 - @vwfinley
+* Added bbm-macros package.
