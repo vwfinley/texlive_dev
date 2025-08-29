@@ -1,6 +1,6 @@
 FROM ghcr.io/vwfinley/texlive:v1.0.0
 
-ARG MIRROR="https://mirror.math.princeton.edu/pub/CTAN/systems/texlive/tlnet"
+ARG MIRROR="https://mirror.ctan.org/systems/texlive/tlnet"
 
 LABEL license="MIT"
 
