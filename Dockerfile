@@ -11,7 +11,8 @@ RUN <<EOF
         lastpage sectsty \
         tocbibind tocloft \
         multirow makecell \
-        bbm bbm-macros
+        bbm bbm-macros \
+        mdframed zref needspace
 EOF
 
 USER vscode
