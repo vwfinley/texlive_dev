@@ -12,7 +12,8 @@ RUN <<EOF
         tocbibind tocloft \
         multirow makecell \
         bbm bbm-macros \
-        mdframed zref needspace
+        mdframed zref needspace \
+        endnotes
 EOF
 
 USER vscode
